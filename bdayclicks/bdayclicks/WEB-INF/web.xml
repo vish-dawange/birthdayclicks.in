@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+<servlet>
+  <servlet-name>insert</servlet-name>
+  <servlet-class>insert</servlet-class>
+ </servlet>
+<servlet>
+  <servlet-name>reginsert</servlet-name>
+  <servlet-class>reginsert</servlet-class>
+ </servlet>
+<servlet>
+  <servlet-name>SendEmail</servlet-name>
+  <servlet-class>SendEmail</servlet-class>
+ </servlet>
+<servlet>
+  <servlet-name>login12</servlet-name>
+  <servlet-class>login12</servlet-class>
+ </servlet>
+<servlet>
+  <servlet-name>SendWaySms</servlet-name>
+  <servlet-class>SendWaySms</servlet-class>
+ </servlet>
+<servlet>
+  <servlet-name>frndinsert</servlet-name>
+  <servlet-class>frndinsert</servlet-class>
+ </servlet>
+
+<servlet-mapping>
+  <servlet-name>insert</servlet-name>
+  <url-pattern>/insert</url-pattern>
+ </servlet-mapping>
+<servlet-mapping>
+  <servlet-name>reginsert</servlet-name>
+  <url-pattern>/reginsert</url-pattern>
+ </servlet-mapping>
+<servlet-mapping>
+  <servlet-name>SendEmail</servlet-name>
+  <url-pattern>/SendEmail</url-pattern>
+ </servlet-mapping>
+<servlet-mapping>
+  <servlet-name>login12</servlet-name>
+  <url-pattern>/login12</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>SendWaySms</servlet-name>
+  <url-pattern>/SendWaySms</url-pattern>
+ </servlet-mapping>
+<servlet-mapping>
+  <servlet-name>frndinsert</servlet-name>
+  <url-pattern>/frndinsert</url-pattern>
+ </servlet-mapping>
+</web-app>
